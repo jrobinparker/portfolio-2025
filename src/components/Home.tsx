@@ -1,14 +1,15 @@
+import { NavLink } from 'react-router';
 import '../App.css'
 
-export default function HomeComponent() {
+export default function Home() {
   return (
     <>
       <h1>Jeremy Parker</h1>
       <div className="home-grid">
-        <a className="home-grid-link">about</a>
-        <a className="home-grid-link">experience</a>
-        <a className="home-grid-link">projects</a>
-        <a className="home-grid-link">linkedin</a>
+        <NavLink to="/about" className="home-grid-link">about</NavLink>
+        <NavLink to="/experience" className="home-grid-link">experience</NavLink>
+        <NavLink to="/projects" className="home-grid-link">projects</NavLink>
+        <a href="https://www.linkedin.com/in/jrobinparker" target="blank" className="home-grid-link">linkedin</a>
       </div>
     </>
   )
