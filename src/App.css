@@ -4,3 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 25px;
+}
+
+.home-grid-link {
+  font-size: 2rem;
+  cursor: pointer;
+}
