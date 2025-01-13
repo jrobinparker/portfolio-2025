@@ -6,9 +6,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #242424;
   height: 100vh;
   max-height: 100vh;
+  @apply bg-slate-900;
 }
 
 h1 {

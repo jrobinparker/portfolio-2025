@@ -1,4 +1,11 @@
-export default function CardTextContainer({ company, title, years, accomplishments }) {
+interface CardTextContainerProps {
+    company: string;
+    title: string;
+    years: string;
+    accomplishments: string[];
+}
+
+export default function CardTextContainer({ company, title, years, accomplishments }: CardTextContainerProps) {
     return (
         <div className="text-left w-3/5 h-full p-5 pl-10 text-bg">
             <h1 className="2xl:text-xl text-lg font-weight-bold mb-5">{company}</h1>
@@ -7,7 +14,7 @@ export default function CardTextContainer({ company, title, years, accomplishmen
               {years}
             </p>
             <ul className="list-disc pl-10 md:text-base">
-              {accomplishments.map((acc) => <li>{acc}</li>)}
+              {accomplishments.map((acc: string) => <li>{acc}</li>)}
             </ul>
           </div>
     )

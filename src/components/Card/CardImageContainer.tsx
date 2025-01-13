@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, MutableRefObject } from 'react';
+import { useLayoutEffect, useMemo, useRef, MutableRefObject } from 'react';
 
 const COLORS = [
   'hsl(10deg, 56%, 91%)',
@@ -17,12 +17,18 @@ const COLORS = [
   'hsl(232deg, 97%, 85%)'
 ];
 
-export default function CardImageContainer({ children }) {
+interface CardImageContainerProps {
+  children: React.ReactNode;
+}
+
+export default function CardImageContainer({ children }: CardImageContainerProps) {
     const gradientRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
-  const shuffledColors = COLORS.map((val) => ({ val, sort: Math.random() }))
+  const shuffledColors = useMemo(() => {
+    return COLORS.map((val) => ({ val, sort: Math.random() }))
 		.sort((a, b) => a.sort - b.sort)
 		.map(({ val }) => val);
+  }, []);
 
   useLayoutEffect(() => {
     if (!gradientRef.current) return;

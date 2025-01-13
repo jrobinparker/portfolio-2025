@@ -3,7 +3,7 @@
   text-align: center;
   height: 80vh;
   max-height: 100vh;
-  background-color: #242424;
+  @apply bg-slate-900;
 }
 
 .home-grid {

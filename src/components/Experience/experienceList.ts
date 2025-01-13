@@ -1,19 +1,15 @@
-import appleLogo from '../../assets/apple-logo.png';
 import tsLogo from '../../assets/ts-logo.svg';
 import jsLogo from '../../assets/js-logo.png';
 import emberLogo from '../../assets/ember-logo.svg';
 import phpLogo from '../../assets/php-logo.svg';
-import sentryLogo from '../../assets/sentry-logo.svg';
 import tailwindLogo from '../../assets/tailwind-logo.svg';
 import swiftLogo from '../../assets/swift-logo.svg';
 import jiraLogo from '../../assets/jira-logo.svg';
-import railsLogo from '../../assets/rails-logo.png';
 import jdLogo from '../../assets/jd-logo.svg';
 import reactLogo from '../../assets/react-logo.svg';
 import pythonLogo from '../../assets/python-logo.svg';
 import pandasLogo from '../../assets/pandas-logo.svg';
 import flaskLogo from '../../assets/flask-logo.svg';
-import seleniumLogo from '../../assets/selenium-logo.svg';
 import sharepointLogo from '../../assets/sharepoint-logo.png';
 
 export default [
@@ -22,7 +18,7 @@ export default [
 		company: 'Apple',
 		years: '11/2023 - present',
 		link: 'https://www.apple.com',
-		tech: [jsLogo, tsLogo, emberLogo, tailwindLogo, phpLogo, sentryLogo, swiftLogo],
+		tech: [jsLogo, swiftLogo, tailwindLogo, tsLogo, emberLogo, phpLogo],
 		about: `I'm currently a frontend software engineer with Apple's Global Security Tools team, where we build and maintain apps that manage security, secrecy, and compliance for project teams throughout Apple.`,
 		accomplishments: [
 			'Successfully completed extensive upgrades to five apps used by Apple employees worldwide to manage security, secrecy, and compliance',
@@ -38,7 +34,7 @@ export default [
 		yearsTwo: '7/2021 - 7/2022',
 		company: 'Agrian by Telus Agronomy',
 		link: 'https://www.telus.com/agcg/products/agronomy',
-		tech: [jsLogo, tsLogo, emberLogo, tailwindLogo, jiraLogo, railsLogo, jdLogo],
+		tech: [jsLogo, tailwindLogo, jiraLogo, tsLogo, emberLogo, jdLogo],
 		about: `At Telus Agronomy, I developed and maintained data-driven user interfaces for the company's next-gen and legacy apps, which are used daily by over 225,000 large-scale agricultural companies and food distributors to grow and distribute the food we eat every day.`,
 		accomplishments: [
             `Built new features for Telus' suite of compliance tools, which have processed 1 billion+ acres of land across the US to ensure that pesticides and fertilizers are used in compliance with state regulations`,
@@ -51,7 +47,7 @@ export default [
 		years: '7/2021 - 7/2022',
 		company: 'Agrian by Telus Agronomy',
 		link: 'https://www.telus.com/agcg/products/agronomy',
-		tech: [jsLogo, tsLogo, emberLogo, tailwindLogo, jiraLogo, railsLogo, jdLogo],
+		tech: [jsLogo, tailwindLogo, jiraLogo, tsLogo, emberLogo, jdLogo],
 		about: `At Telus Agronomy, I developed and maintained data-driven user interfaces for the company's next-gen and legacy apps, which are used daily by over 225,000 large-scale agricultural companies and food distributors to grow and distribute the food we eat every day.`,
 		accomplishments: [
             `Built new features for Telus' suite of compliance tools, which have processed 1 billion+ acres of land across the US to ensure that pesticides and fertilizers are used in compliance with state regulations`,
@@ -64,7 +60,7 @@ export default [
 		company: 'Analysis Group',
 		years: '4/2020 - 7/2021',
 		link: 'https://www.analysisgroup.com',
-		tech: [jsLogo, reactLogo, pythonLogo, pandasLogo, flaskLogo, seleniumLogo, sharepointLogo],
+		tech: [jsLogo, sharepointLogo, pandasLogo, reactLogo, pythonLogo, flaskLogo],
 		about: `Although I joined Analysis Group as a research assistant, I started teaching myself how to program in 2018 and, in my final year with the company, used my self-taught skills to build tools that improved internal business processes.`,
         accomplishments: [
             'Developed a daily automated report of experience data from all staff profiles in Python, which optimized case staffing turn-around times by 50%',
