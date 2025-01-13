@@ -39,20 +39,21 @@ export default function Experience() {
   }
   return (
     <div className="w-full h-full flex flex-col place-content-center">
-      <h1 className="text-zinc-100 mb-10">Experience</h1>
+      <h1 className="text-zinc-100 mb-10 text-5xl">Experience</h1>
         <div className="flex flex-row place-content-center">
           <ChevronLeft className="place-self-center text-zinc-100 ml-10 cursor-pointer hover:animate-pulse" size={42} strokeWidth={3} onClick={debouncedClick('backward')} />
           <Card expIdx={expIdx}>
             <CardImageContainer>
                 <div className="place-items-center grid grid-rows-3 grid-flow-col gap-10">
                   {experienceList[expIdx].tech
-                    .map(tech => <img src={tech} className="max-w-28" />)}
+                    .map(tech => <img src={tech} className="max-w-28" loading="lazy" />)}
                 </div>
             </CardImageContainer>
             <CardTextContainer
               company={experienceList[expIdx].company}
               title={experienceList[expIdx].title}
               years={experienceList[expIdx].years}
+              about={experienceList[expIdx].about}
               accomplishments={experienceList[expIdx].accomplishments}
             />
           </Card>

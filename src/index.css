@@ -9,8 +9,18 @@ body {
   height: 100vh;
   max-height: 100vh;
   @apply bg-slate-900;
+  font-family: 'Inter';
 }
 
 h1 {
-  font-size: 3.5em;
+  font-weight: 600;
+  @apply tracking-wide;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+li, p {
+  font-weight: 300;
 }
