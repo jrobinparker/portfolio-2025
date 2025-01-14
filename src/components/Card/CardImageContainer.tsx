@@ -48,12 +48,12 @@ export default function CardImageContainer({ children }: CardImageContainerProps
   });
 
     return (
-      <section className="w-2/5 h-full rounded-tl-lg rounded-bl-lg flex place-content-center place-items-center" style={ { backgroundColor: 'hsl(227deg, 35%, 80%)' } }>
+      <section className="w-full xl:w-2/5 md:max-xl:h-2/5 rounded-tl-lg xl:rounded-bl-lg max-xl:rounded-tr-lg flex" style={ { backgroundColor: 'hsl(227deg, 35%, 80%)' } }>
         <div
           ref={gradientRef}
-          className="h-full w-full p-20 rounded-tl-lg rounded-bl-lg"
+          className="w-full h-full p-5 rounded-tl-lg rounded-bl-lg max-xl:rounded-tr-lg flex place-content-center"
         >
-            {children}
+          {children}
         </div>
       </section>
     )

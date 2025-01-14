@@ -59,12 +59,12 @@ export default [
 		]
 	},
 	{
-		title: 'L&D Tech Specialist/Software Developer',
+		title: 'Software Developer',
 		company: 'Analysis Group',
-		years: '4/2020 - 7/2021',
+		years: '5/2020 - 7/2021',
 		link: 'https://www.analysisgroup.com',
 		tech: [jsLogo, sharepointLogo, pandasLogo, reactLogo, pythonLogo, flaskLogo],
-		about: `Although I joined Analysis Group as a research assistant, I started teaching myself how to program in 2017 and, in my final year with the company, used my self-taught skills to build tools that improved internal business processes.`,
+		about: 'Although I joined Analysis Group as a research assistant, I started teaching myself how to program in 2017 and, in my final year with the company, used my self-taught skills to build tools that improved internal business processes.',
         accomplishments: [
             'Developed a daily automated report of experience data from all staff profiles in Python using Selenium and Pandas, which optimized case staffing turn-around times by 50%',
             'Automated analysis of staff resumes using Pandas and Natural Language Toolkit in Python, giving managers the ability to quickly build project teams',

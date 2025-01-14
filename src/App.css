@@ -1,9 +1,6 @@
 #root {
-  padding: 2rem;
   text-align: center;
-  height: 80vh;
-  max-height: 100vh;
-  @apply bg-slate-900;
+  min-height: 300px;
 }
 
 .home-grid {

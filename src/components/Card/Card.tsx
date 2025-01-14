@@ -17,8 +17,8 @@ export default function Card({ children, expIdx }: CardProps) {
     }, [expIdx])
 
     return (
-        <div className="ml-10" ref={cardRef}>
-            <div className="text-zinc-100 flex w-[1500px] h-full rounded-lg bg-slate-800 shadow-lg">
+        <div className="xl:m-5 min-w-[225px] w-full h-[600px] sm:max-md:h-2/5" ref={cardRef}>
+            <div className="text-zinc-100 flex rounded-lg bg-slate-800 shadow-lg flex-col xl:flex-row min-h-[300px] h-full w-full justify-start">
                 {children}
             </div>
         </div>
