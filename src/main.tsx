@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import App from './App.tsx'
 import AboutMe from './components/AboutMe.tsx'
 import Experience from './components/Experience/Experience.tsx'
-import Projects from './components/Projects.tsx'
+import Projects from './components/Projects/Projects.tsx'
 import '@fontsource/inter';
 import "@fontsource/inter/900.css";
 import '@fontsource/inter/300.css';

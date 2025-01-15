@@ -19,10 +19,11 @@ const COLORS = [
 
 interface CardImageContainerProps {
   children: React.ReactNode;
+  cardType?: 'exp' | 'proj';
 }
 
-export default function CardImageContainer({ children }: CardImageContainerProps) {
-    const gradientRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+export default function CardImageContainer({ children, cardType }: CardImageContainerProps) {
+  const gradientRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   const shuffledColors = useMemo(() => {
     return COLORS.map((val) => ({ val, sort: Math.random() }))
@@ -32,7 +33,7 @@ export default function CardImageContainer({ children }: CardImageContainerProps
 
   useLayoutEffect(() => {
     if (!gradientRef.current) return;
-		const randomNumOfLayers = Math.floor(Math.random() * 6) + 1;
+		const randomNumOfLayers = Math.floor(Math.random() * 9) + 1;
 		const meshGradients = [];
 
 		for (let i = 0; i < randomNumOfLayers; i++) {
@@ -48,10 +49,10 @@ export default function CardImageContainer({ children }: CardImageContainerProps
   });
 
     return (
-      <section className="w-full xl:w-2/5 md:max-xl:h-2/5 rounded-tl-lg xl:rounded-bl-lg max-xl:rounded-tr-lg flex" style={ { backgroundColor: 'hsl(227deg, 35%, 80%)' } }>
+      <section className={`w-full xl:w-2/5 md:max-xl:h-2/5 flex rounded-tl-lg ${cardType === 'proj' ? 'xl:w-full lg:h-2/3 rounded-tr-lg' : 'xl:rounded-bl-lg max-xl:rounded-tr-lg'}`} style={ { backgroundColor: 'hsl(227deg, 35%, 80%)' } }>
         <div
           ref={gradientRef}
-          className="w-full h-full p-5 rounded-tl-lg rounded-bl-lg max-xl:rounded-tr-lg flex place-content-center"
+          className={`w-full h-full p-5 rounded-tl-lg ${cardType === 'proj' ? 'xl:w-full h-2/3 rounded-tr-lg' : 'xl:rounded-bl-lg max-xl:rounded-tr-lg'} flex place-content-center`}
         >
           {children}
         </div>
