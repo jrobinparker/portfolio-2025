@@ -39,7 +39,7 @@ export default function Experience() {
   }
 
   return (
-    <div className="flex flex-col">
+    <div className="h-dvh flex flex-col place-content-center">
       <h1 className="text-zinc-100 mb-10 text-4xl sm:max-md:text-2xl">Experience</h1>
         <div className="flex place-items-center self-center">
           <ChevronLeft className="place-self-center text-zinc-100 cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('backward')} />
