@@ -4,7 +4,7 @@ interface CardTextContainerProps {
     company?: string;
     title?: string;
     about?: string;
-    cardType?: 'exp' | 'proj';
+    cardType?: 'about' | 'exp' | 'proj';
     accomplishments?: string[];
     years?: string;
     ghRepo?: string;

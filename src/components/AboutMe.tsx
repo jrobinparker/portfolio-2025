@@ -1,9 +1,47 @@
+import Card from './Card/Card';
+import profileImg from '../assets/profile-img.jpg';
 import '../App.css'
 
 export default function AboutMe() {
   return (
-    <>
-      <h1>About Me</h1>
-    </>
+    <div className="flex flex-col place-items-center">
+      <h1 className="text-zinc-100 mb-10 text-4xl sm:max-md:text-2xl">About Me</h1>
+      <Card cardType="about">
+        <div className="flex max-xl:flex-col place-items-center max-xl:overflow-hidden">
+          <div className="w-1/3 max-xl:mb-5 flex flex-col place-items-center">
+            <img src={profileImg} className="rounded-full place-items-center"/>
+          </div>
+          <div className="w-2/3 text-left xl:ml-10 leading-loose max-xl:!w-full place-self-start max-xl:overflow-scroll">
+            <h2 className="mb-5">
+              Hey there, I'm Jeremy. I'm a software engineer with 3 and a half years of professional experience building data-driven UIs for
+              software that helps support critical operations for large-scale organizations.
+            </h2>
+            <p className="mb-5">
+              I've always had a deep interest in computers and technology and was intersted in programming, but didn't start until 2017.
+              Before transitioning into software engineering, I worked as a member of the Learning and Development team in a large consulting firm.
+              One day, I thought I'd try my hand at improving one of our less than exciting corporate training courses.
+              I found that with a bit of custom HTML, CSS, and JavaScript, I was able to drastically improve the quality of the course.
+              From there, I was hooked.
+            </p>
+            <p className="mb-5">
+              I taught myself JavaScript and the MERN stack as well as a number of data science libraries in Python and used those new skills
+              to develop internal business solutions, build collaboration sites using Microsoft
+              SharePoint and developed email templates and new styling in our learning management system. I also developed a full-stack training portal for 
+              a martial arts school in New Jersey using the MERN stack.  
+            </p>
+            <p className="mb-5">
+              In 2021, I joined Telus Agronomy as a frontend software engineer, where I developed data-driven user interfaces for one of the largest agricultural software platforms in the world. 
+              I created new tools for Telus' compliance tools, which have been used to process over 1 billion acres of agricultural land across the US and Canada to ensure that chemical pesticides and fertilizers are used safely and in accordance with state regulations.
+              The following year, I became the team lead, managing development of new features and leading daily standups, monthly retros and sprint plannings for an agile team of four frontend engineers.
+            </p>
+            <p>
+              Currently, I work at Apple on the Global Security Tools team, where I develop web and iOS features used by Apple employees worldwide to support strict product secrecy and maintenance of critical US government compliance. 
+              I've fully upgraded the frontend stacks of the team's apps, developed native JS solutions to replace outdated packages, and increased test coverage by 20% to improve the speed and reliability
+              of apps that are critical to Apple's day-to-day operations.
+            </p> 
+          </div>
+        </div>
+      </Card>
+    </div>
   )
 }

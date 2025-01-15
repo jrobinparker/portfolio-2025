@@ -60,7 +60,7 @@ export default function Experience() {
           </Card>
           <ChevronRight className="place-self-center text-zinc-100 cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('forward')} />
         </div>
-        <div className="flex flex-row w-40 mt-10 place-self-center justify-between">
+        <div className="flex flex-row w-40 mt-10 place-self-center justify-between" id="exp">
           {expBulletPoints}
         </div>
     </div>

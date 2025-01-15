@@ -3,7 +3,7 @@ import './styles.css';
 
 interface CardProps {
     children: React.ReactNode;
-    cardType?: 'exp' | 'proj';
+    cardType?: 'about' | 'exp' | 'proj';
     expIdx?: number;
 }
 
@@ -18,8 +18,8 @@ export default function Card({ children, expIdx, cardType }: CardProps) {
     }, [expIdx])
 
     return (
-        <div className={`xl:m-5 min-w-[225px] w-full h-[600px] sm:mr-5 sm:max-lg:h-2/5 sm:max-lg:m-5 ${cardType === 'proj' && 'max-sm:h-1/3 max-sm:mb-5'}`} ref={cardRef}>
-            <div className={`text-zinc-100 flex rounded-lg bg-slate-800 shadow-lg flex-col xl:flex-row min-h-[300px] h-full w-full justify-start ${cardType === 'proj' && 'xl:flex-col'}`}>
+        <div className={`xl:m-5 min-w-[225px] w-full h-[600px] sm:mr-5 sm:max-lg:h-2/5 sm:max-lg:m-5 ${cardType === 'proj' && 'max-sm:h-1/3 max-sm:mb-5'} ${cardType === 'about' && 'h-auto m-0'}`} ref={cardRef}>
+            <div className={`text-zinc-100 flex rounded-lg bg-slate-800 shadow-lg flex-col xl:flex-row min-h-[300px] h-full w-full justify-start ${(cardType === 'proj' && 'xl:flex-col')} ${cardType === 'about' && 'p-10 h-auto max-xl:max-h-[700px]'}`}>
                 {children}
             </div>
         </div>
