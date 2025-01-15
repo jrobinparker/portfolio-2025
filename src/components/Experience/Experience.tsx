@@ -40,9 +40,9 @@ export default function Experience() {
 
   return (
     <div className="h-screen flex flex-col place-items-center">
-      <h1 className="text-zinc-100 mb-10 text-4xl max-xl:text-2xl">Experience</h1>
+      <h1 className="mb-10 text-4xl max-xl:text-2xl" id="exp">Experience</h1>
         <div className="flex place-items-center place-content-center h-auto">
-          <ChevronLeft className="place-self-center text-zinc-100 cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('backward')} />
+          <ChevronLeft className="place-self-center cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('backward')} />
           <Card cardType="exp" expIdx={expIdx}>
             <CardImageContainer>
                 <div className="grid grid-rows-2 xl:grid-rows-3 grid-flow-col gap-10 xl:gap-1 w-4/5 h-4/5 place-self-center place-items-center">
@@ -58,7 +58,7 @@ export default function Experience() {
               accomplishments={experienceList[expIdx].accomplishments}
             />
           </Card>
-          <ChevronRight className="place-self-center text-zinc-100 cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('forward')} />
+          <ChevronRight className="place-self-center cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('forward')} />
         </div>
         <div className="flex flex-row w-40 mt-5 place-self-center justify-between" id="exp">
           {expBulletPoints}

@@ -5,7 +5,7 @@
 body {
   display: flex;
   flex-direction: column;
-  @apply bg-slate-900 h-dvh w-dvw box-border;
+  @apply bg-slate-900 text-zinc-100 h-dvh w-dvw box-border;
   font-family: 'Inter';
   overflow-x: hidden;
   padding-left: 5%;
