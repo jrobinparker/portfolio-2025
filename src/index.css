@@ -5,11 +5,11 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   @apply bg-slate-900 h-dvh w-dvw box-border;
   font-family: 'Inter';
-  padding: 0 10% 0 10%;
-  min-height: 300px;
+  overflow-x: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 h1 {

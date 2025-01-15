@@ -70,7 +70,7 @@ export default [
             'Automated analysis of staff resumes using Pandas and Natural Language Toolkit in Python, giving managers the ability to quickly build project teams',
             `Built an event app usage data dashboard with a React frontend and a backend powered by Flask and Bokeh that provided actionable insights into app usage, reducing the following year's app cost by 25%`,
             `Created a course content download app for the firm's LMS using React and axios which helped reduce course creation times by 50%`,
-			'Built course program pages, email templates, and custom styling in training portal using HTML, CSS, and JavaScript',
+			'Built course program pages, email templates, and custom styling in training portal using HTML and CSS',
 			'Developed collaborative SharePoint sites for administrative teams using HTML, CSS, JavaScript, and jQuery'
         ]
 	}

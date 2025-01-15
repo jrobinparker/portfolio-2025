@@ -5,14 +5,14 @@ import projectsList from './projectsList.ts';
 
 export default function Projects() {
   return (
-    <div className="h-dvh flex flex-col place-content-center">
+    <div className="h-screen flex flex-col">
       <h1 className="text-zinc-100 mb-10 text-4xl sm:max-md:text-2xl">Projects</h1>
-        <div className="flex flex-col lg:flex-row place-items-center justify-around">
+        <div className="flex flex-col xl:flex-row max-xl:self-center">
           {projectsList.map(proj => {
             return (
               <Card cardType={"proj"}>
               <CardImageContainer cardType={"proj"}>
-                  <img src={proj.img} className="w-full self-center rounded-md shadow-lg mb-5" />
+                  <img src={proj.img} className="max-xl:w-4/5 self-center rounded-md shadow-lg mb-5" />
               </CardImageContainer>
               <CardTextContainer
                 company={proj.company}

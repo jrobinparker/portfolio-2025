@@ -39,15 +39,15 @@ export default function Experience() {
   }
 
   return (
-    <div className="h-dvh flex flex-col place-content-center">
-      <h1 className="text-zinc-100 mb-10 text-4xl sm:max-md:text-2xl">Experience</h1>
-        <div className="flex place-items-center self-center">
+    <div className="h-screen flex flex-col place-items-center">
+      <h1 className="text-zinc-100 mb-10 text-4xl max-xl:text-2xl">Experience</h1>
+        <div className="flex place-items-center place-content-center h-auto">
           <ChevronLeft className="place-self-center text-zinc-100 cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('backward')} />
-          <Card expIdx={expIdx}>
+          <Card cardType="exp" expIdx={expIdx}>
             <CardImageContainer>
                 <div className="grid grid-rows-2 xl:grid-rows-3 grid-flow-col gap-10 xl:gap-1 w-4/5 h-4/5 place-self-center place-items-center">
                   {experienceList[expIdx].tech
-                    .map(tech => <img src={tech} className="min-w-12 max-w-20 sm:max-md:w-10 place-self-center" loading="lazy" />)}
+                    .map(tech => <img src={tech} className="min-w-12 max-w-20 max-md:w-12 place-self-center" loading="lazy" />)}
                 </div>
             </CardImageContainer>
             <CardTextContainer
@@ -60,7 +60,7 @@ export default function Experience() {
           </Card>
           <ChevronRight className="place-self-center text-zinc-100 cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('forward')} />
         </div>
-        <div className="flex flex-row w-40 mt-10 place-self-center justify-between" id="exp">
+        <div className="flex flex-row w-40 mt-5 place-self-center justify-between" id="exp">
           {expBulletPoints}
         </div>
     </div>
