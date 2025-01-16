@@ -18,14 +18,13 @@ export default function AboutMe() {
             </h2>
             <p className="mb-5">
               I've always had a deep interest in computers and technology and was intersted in programming, but didn't start until 2017.
-              Before transitioning into software engineering, I worked as a member of the Learning and Development team in a large consulting firm.
-              One day, I thought I'd try my hand at improving one of our less than exciting corporate training courses.
+              Before transitioning into software engineering, I worked as a member of the Learning and Development team at Analysis Group, the largest privately-held consulting firm in the US.
+              One day, I thought I'd try making one of our training courses more engaging.
               I found that with a bit of custom HTML, CSS, and JavaScript, I was able to drastically improve the quality of the course.
               From there, I was hooked.
             </p>
             <p className="mb-5">
-              I taught myself JavaScript, React, and the MERN stack as well as a number of data science libraries in Python and used those new skills
-              to develop internal business solutions, build collaboration sites using Microsoft
+              I taught myself JavaScript, React, and Python and used those new skills to develop internal business solutions using data science libraries, build collaboration sites using Microsoft
               SharePoint and developed email templates and new styling in our learning management system. I also developed a full-stack training portal for 
               a martial arts school in New Jersey using the MERN stack.  
             </p>
