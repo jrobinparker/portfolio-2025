@@ -30,14 +30,14 @@ export default function Home() {
         <a
           href="https://www.linkedin.com/in/jrobinparker"
           target="blank"
-          className="text-4xl cursor-pointer"
+          className="text-4xl cursor-pointer hover:animate-pulse"
         >
           linkedin
         </a>
         <a
           href="https://www.github.com/jrobinparker"
           target="blank"
-          className="text-4xl cursor-pointer col-span-2"
+          className="text-4xl cursor-pointer col-span-2 hover:animate-pulse"
         >
           github
         </a>
