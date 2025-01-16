@@ -40,7 +40,7 @@ export default function Experience() {
 
   return (
     <div className="h-screen flex flex-col place-items-center place-content-center max-md:place-content-center" id="exp">
-      <h1 className="mb-10 text-4xl">Experience</h1>
+      <h1 className="mb-10 text-5xl text-center bg-gradient-to-bl from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent">Experience</h1>
         <div className="flex place-items-center place-content-center h-auto">
           <ChevronLeft className="place-self-center cursor-pointer hover:animate-pulse" size={64} strokeWidth={3} onClick={debouncedClick('backward')} />
           <Card cardType="exp" expIdx={expIdx}>
@@ -51,6 +51,7 @@ export default function Experience() {
                 </div>
             </CardImageContainer>
             <CardTextContainer
+              cardType={'exp'}
               company={experienceList[expIdx].company}
               title={experienceList[expIdx].title}
               years={experienceList[expIdx].years}

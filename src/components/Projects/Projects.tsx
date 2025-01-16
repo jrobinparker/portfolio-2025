@@ -6,7 +6,7 @@ import projectsList from './projectsList.ts';
 export default function Projects() {
   return (
     <div className="h-auto flex flex-col place-content-start" id="proj">
-      <h1 className="mb-10 text-4xl">Projects</h1>
+      <h1 className="mb-10 text-5xl text-center bg-gradient-to-bl from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">Projects</h1>
         <div className="flex flex-col xl:flex-row max-xl:self-center">
           {projectsList.map(proj => {
             return (

@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <div className="h-screen flex flex-col place-content-center">
-      <h1 className="text-7xl text-center">Jeremy Parker</h1>
+      <h1 className="text-7xl text-center bg-gradient-to-b from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">Jeremy Parker</h1>
       <div className="grid grid-cols-2 gap-10 self-center place-items-center mt-20">
         <span className="text-4xl cursor-pointer hover:animate-pulse" onClick={() => handleClick('about')}>about me</span>
         <span className="text-4xl cursor-pointer hover:animate-pulse" onClick={() => handleClick('exp')}>experience</span>

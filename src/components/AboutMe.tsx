@@ -5,7 +5,7 @@ import '../App.css'
 export default function AboutMe() {
   return (
     <div className="h-auto pt-5 pr-10 pb-10 place-content-center" id="about">
-      <h1 className="mb-10 text-4xl">About Me</h1>
+      <h1 className="mb-10 text-5xl text-center bg-gradient-to-b from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">About Me</h1>
       <Card cardType="about">
         <div className="flex max-xl:flex-col max-xl:h-auto place-items-center max-xl:overflow-hidden">
           <div className="w-1/3 max-xl:mb-5 flex flex-col place-items-center">
@@ -24,7 +24,7 @@ export default function AboutMe() {
               From there, I was hooked.
             </p>
             <p className="mb-5">
-              I taught myself JavaScript and the MERN stack as well as a number of data science libraries in Python and used those new skills
+              I taught myself JavaScript, React, and the MERN stack as well as a number of data science libraries in Python and used those new skills
               to develop internal business solutions, build collaboration sites using Microsoft
               SharePoint and developed email templates and new styling in our learning management system. I also developed a full-stack training portal for 
               a martial arts school in New Jersey using the MERN stack.  

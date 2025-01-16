@@ -13,7 +13,7 @@ interface CardTextContainerProps {
 
 export default function CardTextContainer({ company, title, years, about, accomplishments, ghRepo, link, cardType }: CardTextContainerProps) {
     return (
-        <div className={`text-left pt-5 pr-5 pl-5 h-2/3 xl:h-full xl:w-3/5 xl:min-h-[300px] sm:max-xl:mt-auto ${cardType === 'proj' && 'xl:w-full xl:h-1/3'}`}>
+        <div className={`text-left pt-5 pr-5 pl-5 h-2/3 xl:h-full xl:w-3/5 xl:min-h-[300px] sm:max-xl:mt-auto ${cardType === 'proj' && 'xl:w-full xl:h-1/3'} ${cardType === 'exp' && 'sm:max-xl:mb-auto md:max-xl:h-[450px]'}`}>
             <h1 className="max-xl:text-xl text-lg mb-3">
               {company}
             </h1>
