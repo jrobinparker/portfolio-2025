@@ -4,8 +4,8 @@ import '../App.css'
 
 export default function AboutMe() {
   return (
-    <div className="h-screen pt-5 pr-10 pb-10 place-content-center" id="about">
-      <h1 className="mb-10 text-4xl sm:max-md:text-2xl">About Me</h1>
+    <div className="h-auto pt-5 pr-10 pb-10 place-content-center" id="about">
+      <h1 className="mb-10 text-4xl">About Me</h1>
       <Card cardType="about">
         <div className="flex max-xl:flex-col max-xl:h-auto place-items-center max-xl:overflow-hidden">
           <div className="w-1/3 max-xl:mb-5 flex flex-col place-items-center">

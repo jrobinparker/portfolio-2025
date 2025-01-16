@@ -11,6 +11,7 @@ export default function Home() {
         <span className="text-4xl cursor-pointer hover:animate-pulse" onClick={() => handleClick('exp')}>experience</span>
         <span className="text-4xl cursor-pointer hover:animate-pulse" onClick={() => handleClick('proj')}>projects</span>
         <a href="https://www.linkedin.com/in/jrobinparker" target="blank" className="text-4xl cursor-pointer">linkedin</a>
+        <a href="https://www.github.com/jrobinparker" target="blank" className="text-4xl cursor-pointer col-span-2">github</a>
       </div>
     </div>
   )
