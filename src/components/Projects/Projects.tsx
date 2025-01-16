@@ -5,8 +5,8 @@ import projectsList from './projectsList.ts';
 
 export default function Projects() {
   return (
-    <div className="h-screen flex flex-col">
-      <h1 className="mb-10 text-4xl sm:max-md:text-2xl" id="proj">Projects</h1>
+    <div className="h-screen flex flex-col" id="proj">
+      <h1 className="mb-10 text-4xl sm:max-md:text-2xl">Projects</h1>
         <div className="flex flex-col xl:flex-row max-xl:self-center">
           {projectsList.map(proj => {
             return (

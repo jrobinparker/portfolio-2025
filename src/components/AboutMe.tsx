@@ -4,14 +4,14 @@ import '../App.css'
 
 export default function AboutMe() {
   return (
-    <div className="h-screen pt-5 pr-10 pb-10">
-      <h1 className="mb-10 text-4xl sm:max-md:text-2xl" id="about">About Me</h1>
+    <div className="h-screen pt-5 pr-10 pb-10 place-content-center" id="about">
+      <h1 className="mb-10 text-4xl sm:max-md:text-2xl">About Me</h1>
       <Card cardType="about">
         <div className="flex max-xl:flex-col max-xl:h-auto place-items-center max-xl:overflow-hidden">
           <div className="w-1/3 max-xl:mb-5 flex flex-col place-items-center">
-            <img src={profileImg} className="rounded-full place-items-center"/>
+            <img src={profileImg} className="rounded-full place-items-center shadow-lg"/>
           </div>
-          <div className="w-2/3 text-left xl:ml-10 leading-loose max-xl:!w-full place-self-start overflow-scroll">
+          <div className="w-2/3 text-left xl:ml-10 leading-loose max-xl:!w-full place-self-start max-xl:overflow-scroll">
             <h2 className="mb-5">
               Hey there, I'm Jeremy. I'm a software engineer with 3 and a half years of professional experience building data-driven UIs for
               software that helps support critical operations for large-scale organizations.
