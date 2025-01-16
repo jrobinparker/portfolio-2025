@@ -65,7 +65,7 @@ export default function Experience() {
           strokeWidth={3}
           onClick={debouncedClick("backward")}
         />
-        <Card cardType="exp" expIdx={expIdx}>
+        <Card cardType="exp" cardStyle="max-xl:h-auto max-xl:mx-5" expIdx={expIdx}>
           <CardImageContainer>
             <div className="grid grid-rows-2 xl:grid-rows-3 grid-flow-col gap-10 xl:gap-1 w-4/5 h-4/5 place-self-center place-items-center">
               {experienceList[expIdx].tech.map((tech) => (

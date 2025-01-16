@@ -8,7 +8,7 @@ export default function AboutMe() {
       <h1 className="mb-10 text-5xl text-center bg-gradient-to-b from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">
         About Me
       </h1>
-      <Card cardType="about">
+      <Card cardType="about" cardStyle="h-auto max-xl:mx-5">
         <div className="flex max-xl:flex-col max-xl:h-auto place-items-center max-xl:overflow-hidden">
           <div className="w-1/3 max-xl:mb-5 flex flex-col place-items-center">
             <img

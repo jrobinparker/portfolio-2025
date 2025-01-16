@@ -4,10 +4,11 @@ import "./styles.css";
 interface CardProps {
   children: React.ReactNode;
   cardType?: "about" | "exp" | "proj";
+  cardStyle?: string;
   expIdx?: number;
 }
 
-export default function Card({ children, expIdx, cardType }: CardProps) {
+export default function Card({ children, expIdx, cardType, cardStyle }: CardProps) {
   const cardRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   useLayoutEffect(() => {
@@ -19,7 +20,7 @@ export default function Card({ children, expIdx, cardType }: CardProps) {
 
   return (
     <div
-      className={`xl:m-5 min-w-[300px] h-[700px] w-full ${cardType === "exp" && `max-xl:h-auto max-xl:mx-5`} ${cardType === "proj" && "max-sm:h-1/3 max-sm:mb-5"} ${cardType === "about" && "h-auto max-xl:mx-5"}`}
+      className={`xl:m-5 min-w-[300px] h-[700px] w-full ${cardStyle}`}
       ref={cardRef}
     >
       <div className={`relative ${cardType === "exp" ? "h-full" : "h-auto"}`}>

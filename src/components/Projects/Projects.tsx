@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="flex flex-col xl:flex-row max-xl:self-center">
         {projectsList.map((proj) => {
           return (
-            <Card cardType={"proj"}>
+            <Card cardType={"proj"} cardStyle="max-sm:h-1/3 max-sm:mb-5">
               <CardImageContainer cardType={"proj"}>
                 <img
                   src={proj.img}
