@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   @apply bg-black text-zinc-100 h-dvh w-dvw box-border;
-  font-family: "Inter";
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   padding-left: 5%;
   padding-right: 5%;
