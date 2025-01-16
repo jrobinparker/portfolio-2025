@@ -21,7 +21,7 @@ export default [
   },
   {
     company: "Portfolio 2021",
-    link: "https://www.jrobinparker.com",
+    link: "https://jp-og-portfolio.netlify.app",
     img: portfolioScreenshot,
     ghRepo: "https://github.com/jrobinparker/portfolio",
     about: `My original portfolio! As a huge fan 80's movies & music, retro tech, and cyberpunk, I thought it would be fun to integrate these styles into my portfolio.`,
