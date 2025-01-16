@@ -49,11 +49,12 @@ export default [
     years: "7/2021 - 7/2022",
     company: "Agrian by Telus Agronomy",
     link: "https://www.telus.com/agcg/products/agronomy",
-    tech: [jsLogo, tailwindLogo, jiraLogo, tsLogo, emberLogo, jdLogo],
+    tech: [jsLogo, emberLogo, tailwindLogo, tsLogo, reactLogo, jdLogo],
     about: `At Telus Agronomy, I developed and maintained data-driven user interfaces for the company's next-gen and legacy apps, which are used daily by over 225,000 large-scale agricultural companies and food distributors to grow and distribute the food we eat every day.`,
     accomplishments: [
       `Built new features for Telus' suite of compliance tools, which have processed 1 billion+ acres of land across the US to ensure that pesticides and fertilizers are used in compliance with state regulations`,
       `Developed and maintained mapping features in John Deere's MyJohnDeere UI`,
+	  'Developed and reviewed new features for a pilot mobile app in React Native',
       `Built a custom agricultural product dashboard for the largest agriculture cooperative in Canada and significantly improved the performance, reducing creation time from over a minutes to 5 seconds`,
       "Created a tool for state permit holders to set names for each field within their permit based on the commodity or location of the field, significantly reducing time spent re-entering detailed farm permit data",
     ],
@@ -65,11 +66,11 @@ export default [
     link: "https://www.analysisgroup.com",
     tech: [
       jsLogo,
-      sharepointLogo,
-      pandasLogo,
-      reactLogo,
       pythonLogo,
       flaskLogo,
+      reactLogo,
+      pandasLogo,
+      sharepointLogo,
     ],
     about:
       "Although I joined Analysis Group as a research assistant, I started teaching myself how to program in 2017 and, in my final year with the company, used my self-taught skills to build tools that improved internal business processes.",
