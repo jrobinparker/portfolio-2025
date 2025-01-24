@@ -4,7 +4,7 @@ import "../App.css";
 
 export default function AboutMe() {
   return (
-    <div className="h-auto pt-5 pr-10 pb-10 place-content-center my-20" id="about">
+    <div className="h-auto pt-5 pr-10 my-20 inline-block place-content-center" id="about">
       <h1 className="mb-10 text-5xl text-center bg-gradient-to-b from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">
         About Me
       </h1>

@@ -52,7 +52,7 @@ export default function Experience() {
 
   return (
     <div
-      className="h-screen py-10 my-20 flex flex-col place-items-center place-content-center max-md:place-content-center"
+      className="h-auto inline-block py-10 my-20 flex flex-col place-items-center place-content-center"
       id="exp"
     >
       <h1 className="mb-10 text-5xl text-center bg-gradient-to-bl from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent">

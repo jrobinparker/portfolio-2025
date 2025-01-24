@@ -5,7 +5,7 @@ import projectsList from "./projectsList.ts";
 
 export default function Projects() {
   return (
-    <div className="h-auto py-10 mt-20 flex flex-col place-content-start" id="proj">
+    <div className="h-auto inline-block py-10 my-20 flex flex-col" id="proj">
       <h1 className="mb-10 text-5xl text-center bg-gradient-to-bl from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">
         Projects
       </h1>
