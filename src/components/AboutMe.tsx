@@ -4,7 +4,7 @@ import "../App.css";
 
 export default function AboutMe() {
   return (
-    <div className="h-auto pt-5 pr-10 my-20 inline-block place-content-center" id="about">
+    <div className="h-auto pt-5 pr-10 my-10 inline-block place-content-center" id="about">
       <h1 className="mb-10 text-5xl text-center bg-gradient-to-b from-slate-800 via-violet-500 to-zinc-400 text-transparent bg-clip-text">
         About Me
       </h1>
@@ -45,24 +45,13 @@ export default function AboutMe() {
             <p className="mb-5">
               In 2021, I joined Telus Agronomy as a frontend software engineer,
               where I developed data-driven user interfaces for one of the
-              largest agricultural software platforms in the world. I created
-              new tools for Telus' compliance tools, which have been used to
-              process over 1 billion acres of agricultural land across the US
-              and Canada to ensure that chemical pesticides and fertilizers are
-              used safely and in accordance with state regulations. The
-              following year, I became the team lead, managing development of
-              new features and leading daily standups, monthly retros and sprint
-              plannings for an agile team of four frontend engineers.
+              largest agricultural software platforms in the world.
             </p>
             <p>
               Currently, I work at Apple on the Global Security Tools team,
               where I develop web and iOS features used by Apple employees
               worldwide to support strict product secrecy and maintenance of
-              critical US government compliance. I've fully upgraded the
-              frontend stacks of the team's apps, developed native JS solutions
-              to replace outdated packages, and increased test coverage by 20%
-              to improve the speed and reliability of apps that are critical to
-              Apple's day-to-day operations.
+              critical US government compliance.
             </p>
           </div>
         </div>
