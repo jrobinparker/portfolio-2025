@@ -58,14 +58,14 @@ export default function Experience() {
       <h1 className="mb-10 text-5xl text-center bg-gradient-to-bl from-slate-800 via-violet-500 to-zinc-400 bg-clip-text text-transparent">
         Experience
       </h1>
-      <div className="flex place-items-center place-content-center h-auto">
+      <div className="flex place-items-center place-content-center">
         <ChevronLeft
           className="place-self-center cursor-pointer hover:animate-pulse"
           size={64}
           strokeWidth={3}
           onClick={debouncedClick("backward")}
         />
-        <Card cardType="exp" cardStyle="max-xl:h-auto max-xl:mx-5" expIdx={expIdx}>
+        <Card cardType="exp" cardStyle="max-xl:h-auto xl:max-h-[625px] max-xl:mx-5" expIdx={expIdx}>
           <CardImageContainer>
             <div className="grid grid-rows-2 xl:grid-rows-3 grid-flow-col gap-10 xl:gap-1 w-4/5 h-4/5 place-self-center place-items-center">
               {experienceList[expIdx].tech.map((tech) => (
