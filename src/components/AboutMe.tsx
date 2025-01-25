@@ -43,7 +43,7 @@ export default function AboutMe() {
               for a martial arts school in New Jersey using the MERN stack.
             </p>
             <p className="mb-5">
-              In 2021, I joined Telus Agronomy as a frontend software engineer,
+              In 2021, I joined Telus Agriculture & Consumer Goods as a frontend software engineer,
               where I developed data-driven user interfaces for one of the
               largest agricultural software platforms in the world.
             </p>
