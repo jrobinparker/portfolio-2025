@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
+  @apply bg-black text-zinc-100;
   display: flex;
   flex-direction: column;
-  @apply bg-black text-zinc-100;
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   padding-left: 5%;
@@ -17,11 +17,6 @@ h1 {
   font-weight: 600;
 }
 
-h2 {
-  font-weight: 300;
-}
-
-li,
-p {
+h2, li, p {
   font-weight: 300;
 }

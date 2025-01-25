@@ -1,6 +1,5 @@
 import Card from "./Card/Card";
 import profileImg from "../assets/profile-img.jpg";
-import "../App.css";
 
 export default function AboutMe() {
   return (
@@ -18,10 +17,10 @@ export default function AboutMe() {
           </div>
           <div className="w-2/3 text-left xl:ml-10 leading-loose max-xl:!w-full place-self-start max-xl:overflow-scroll">
             <h2 className="mb-5">
-              Hey there, I'm Jeremy. I'm a software engineer with 3 and a half
+              Hey there, I'm Jeremy. I'm a software engineer with 4+ 
               years of professional experience building data-driven UIs for
-              software that helps support critical operations for large-scale
-              organizations.
+              web applications that help support critical operations for large-scale
+              organizations. 
             </h2>
             <p className="mb-5">
               I've always had a deep interest in computers and technology and
@@ -37,9 +36,9 @@ export default function AboutMe() {
             <p className="mb-5">
               I taught myself JavaScript, React, and Python and used those new
               skills to develop internal business solutions using data science
-              libraries, build collaboration sites using Microsoft SharePoint
-              and developed email templates and new styling in our learning
-              management system. I also developed a full-stack training portal
+              libraries, built Microsoft SharePoint collaboration sites,
+              and developed email templates for our learning management system.
+              I also developed a full-stack video training portal
               for a martial arts school in New Jersey using the MERN stack.
             </p>
             <p className="mb-5">
