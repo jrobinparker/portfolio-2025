@@ -33,10 +33,10 @@ export default [
     years: "7/2022 - 11/2023",
     titleTwo: "Software Engineer",
     yearsTwo: "7/2021 - 7/2022",
-    company: "Agrian by Telus Agronomy",
+    company: "Telus Agriculture & Consumer Goods",
     link: "https://www.telus.com/agcg/products/agronomy",
     tech: [jsLogo, tailwindLogo, jiraLogo, tsLogo, emberLogo, jdLogo],
-    about: `In my second year at Telus Agronomy, I oversaw development of new features for Agrian’s agricultural compliance tools and led daily standups, monthly retros and sprint plannings for an agile team of four frontend engineers.`,
+    about: `In my second year at Telus Agriculture & Consumer Goods, I oversaw development of new features for Agrian’s agricultural compliance tools and led daily standups, monthly retros and sprint plannings for an agile team of four frontend engineers.`,
     accomplishments: [
       `Led the frontend team through the first phase of the compliance feature initiative, with a successful demo at California Association of Pest Control Advisers (CAPCA) resulting in a 10% increase in customers`,
       `Managed porting of legacy apps into Agrian's next-gen web UI, leading to higher retention rates for long-term customers`,
@@ -47,10 +47,10 @@ export default [
   {
     title: "Software Engineer - Web UI",
     years: "7/2021 - 7/2022",
-    company: "Agrian by Telus Agronomy",
+    company: "Telus Agriculture & Consumer Goods",
     link: "https://www.telus.com/agcg/products/agronomy",
     tech: [jsLogo, emberLogo, tailwindLogo, tsLogo, reactLogo, jdLogo],
-    about: `At Telus Agronomy, I developed and maintained data-driven user interfaces for the company's next-gen and legacy apps, which are used daily by over 225,000 large-scale agricultural companies and food distributors to grow and distribute the food we eat every day.`,
+    about: `At Telus Agriculture & Consumer Goods, I developed and maintained data-driven user interfaces for the company's next-gen and legacy apps, which are used daily by over 225,000 large-scale agricultural companies and food distributors to grow and distribute the food we eat every day.`,
     accomplishments: [
       `Built new features for Telus' suite of compliance tools, which have processed 1 billion+ acres of land across the US to ensure that pesticides and fertilizers are used in compliance with state regulations`,
       `Developed and maintained mapping features in John Deere's MyJohnDeere UI`,
