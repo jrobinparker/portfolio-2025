@@ -10,9 +10,9 @@ export default function Projects() {
         Projects
       </h1>
       <div className="flex flex-col xl:flex-row max-xl:self-center">
-        {projectsList.map((proj) => {
+        {projectsList.map((proj, i) => {
           return (
-            <Card cardType={"proj"} cardStyle="max-sm:h-1/3 max-sm:mb-5">
+            <Card key={i} cardType={"proj"} cardStyle="max-sm:h-1/3 max-sm:mb-5">
               <CardImageContainer cardType={"proj"}>
                 <img
                   src={proj.img}
@@ -25,6 +25,7 @@ export default function Projects() {
                 ghRepo={proj.ghRepo}
                 link={proj.link}
                 cardType={"proj"}
+                key={i}
               />
             </Card>
           );

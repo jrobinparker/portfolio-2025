@@ -16,6 +16,7 @@ export default function Experience() {
     (_, idx) => (
       <NavigationBulletPoint
         idx={idx}
+        key={idx}
         expIdx={expIdx}
         setExpIdx={() => setExpIdx(idx)}
       />
@@ -68,9 +69,10 @@ export default function Experience() {
         <Card cardType="exp" cardStyle="max-xl:h-auto xl:max-h-[625px] max-xl:mx-5" expIdx={expIdx}>
           <CardImageContainer>
             <div className="grid grid-rows-2 xl:grid-rows-3 grid-flow-col gap-10 xl:gap-1 w-4/5 h-4/5 place-self-center place-items-center">
-              {experienceList[expIdx].tech.map((tech) => (
+              {experienceList[expIdx].tech.map((tech, i) => (
                 <img
                   src={tech}
+                  key={i}
                   className="min-w-12 max-w-20 max-md:w-12 place-self-center"
                   loading="lazy"
                 />

@@ -49,8 +49,8 @@ export default function CardTextContainer({
       </p>
       {accomplishments && (
         <ul className="list-disc pl-10 max-md:hidden max-lg:leading-loose">
-          {accomplishments?.map((acc: string) => (
-            <li className="mb-2 sm:max-xl:text-sm">{acc}</li>
+          {accomplishments?.map((acc: string, i: number) => (
+            <li className="mb-2 sm:max-xl:text-sm" key={i}>{acc}</li>
           ))}
         </ul>
       )}
