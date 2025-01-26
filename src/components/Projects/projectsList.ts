@@ -12,7 +12,7 @@ export default [
       "MFC Online University is a full-stack training portal for Modern Fighting Concepts in Absecon, New Jersey, users can create a paid account to view video courses.",
   },
   {
-    company: "JDictSearch",
+    company: "JDictionarySearch",
     link: "https://jdictsearch.netlify.app/",
     img: jDictScreenshot,
     ghRepo: "https://github.com/jrobinparker/jdictsearch",
