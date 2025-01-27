@@ -36,10 +36,10 @@ export default [
     company: "Telus Agriculture & Consumer Goods",
     link: "https://www.telus.com/agcg/products/agronomy",
     tech: [jsLogo, tailwindLogo, jiraLogo, tsLogo, emberLogo, jdLogo],
-    about: `In my second year at Telus Agriculture & Consumer Goods, I oversaw development of new features for Agrian’s agricultural compliance tools and led daily standups, monthly retros and sprint plannings for an agile team of four frontend engineers.`,
+    about: `In my second year at Telus Agriculture & Consumer Goods, I oversaw development of new features for Telus' agricultural compliance tools and led daily standups, monthly retros and sprint plannings for an agile team of four frontend engineers.`,
     accomplishments: [
       `Led the frontend team through the first phase of the compliance feature initiative, with a successful demo at California Association of Pest Control Advisers (CAPCA) resulting in a 10% increase in customers`,
-      `Managed porting of legacy apps into Agrian's next-gen web UI, leading to higher retention rates for long-term customers`,
+      `Managed porting of legacy apps into Telus' next-gen web UI, leading to higher retention rates for long-term customers`,
       `Reduced sprint plannings from 3+ hours to 1 hour with frequent backlog refinement sessions`,
       "Held weekly mentoring sessions for two junior developers, covering all aspects of frontend software development",
     ],
